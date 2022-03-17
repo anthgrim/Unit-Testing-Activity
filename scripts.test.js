@@ -22,12 +22,12 @@ describe('Greeting function tests', () => {
         expect(greet(upperName)).toBe("HELLO JOSE!")
     })
 
-    //Test 3 - Test for two names passed in array
+    //Test 4 - Test for two names passed in array
     it("Should return Hello, Jose, Pep", () => {
         expect(greet(twoNames)).toBe("Hello, Jose, Pep");
     });
 
-    //Test 4 - Test for lenghty array (length more than 2)
+    //Test 5 - Test for lenghty array (length more than 2)
     it("Should return Hello, and all the names in array", () => {
         expect(greet(names)).toBe("Hello, Jose, Pep, Julius, Maria")
     })

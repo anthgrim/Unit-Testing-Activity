@@ -12,7 +12,7 @@ const greet = (gParam) => {
     }
 
     //If it's an array
-    if(gParam.length > 1) {
+    if(typeof(gParam) == 'object') {
         let greet = "Hello";
         for(let i = 0; i < gParam.length; i++){
             greet += ", " + gParam[i];

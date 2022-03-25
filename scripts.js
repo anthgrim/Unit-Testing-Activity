@@ -1,6 +1,6 @@
 const greet = (gParam) => {
     //If Null
-    if(gParam === "") return `Hello there!`;
+    if(gParam === null) return `Hello there!`;
 
     //If the param is type of string
     if(typeof(gParam) === "string"){

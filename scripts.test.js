@@ -2,7 +2,7 @@ const greet = require("./scripts")
 
 describe('Greeting function tests', () => {
     const singleName = "Elizabeth";
-    const nullName = "";
+    const nullName = null;
     const upperName = "JOSE";
     const twoNames = ["Jose", "Pep"];
     const names = ["Jose", "Pep", "Julius", "Maria"];
